@@ -1,0 +1,85 @@
+body{
+   background-color: gray;
+}
+
+h1 {
+   text-align: center; 
+}
+
+p{
+   font-style: italic;
+   font-size: large;
+   color: papayawhip;
+}
+
+img{
+   float: right;
+   height: 150px;
+   padding-left: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+ol{
+   color: papayawhip;
+}
+
+h2{
+   color: black;
+}
+
+#evszalag {
+   float: left;
+   text-align: center;
+   background-image: url(kepek/idoszalag.png);
+   background-size: 75%;
+   background-repeat: no-repeat;
+   width: 100px;
+}
+
+#nevjegy {
+   margin: 120px 0px;
+   text-align: center;
+   padding-right: 25px;
+}
+
+#nevjegy h2 {
+   font-size: 24pt;
+   margin-bottom: 50px;
+}
+
+#nevjegy h2 small {
+   color: #333a40; 
+}
+
+input[type="range"] {
+   writing-mode: bt-lr; /* IE */
+   -webkit-appearance: slider-vertical; /* WebKit */
+   height: 345px;
+   width: 50px;
+   margin-top: 8px;
+   margin-left: 18px;    
+}
+
+nav {
+   position: relative;
+   font-weight: bold;
+   font-size: 20pt;
+}
+
+.nav-item {
+   margin-right: 20px;
+}
+
+.border {
+   margin: 15px;
+   padding: 10px;
+   border-bottom-left-radius: 50px;
+   border-top-right-radius: 50px;
+   height: 100%;
+   background-color: rgb(61, 61, 61)
+}
+
+footer {
+   font-weight: bold;
+}
